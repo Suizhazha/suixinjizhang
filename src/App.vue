@@ -8,7 +8,15 @@
   </div>
 </template>
 
+<script lang="ts">
+  import x from "@/components/Test.vue";//@代表src目录
+</script>
+
 <style lang="scss">
+  @import "~@/assets/styles/test.scss";//@代表src目录，引入scss文件前要加~
+  body{
+    background: $red;
+  }
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
