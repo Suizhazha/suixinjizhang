@@ -2,7 +2,7 @@
 
         <Layout>
             <p>
-                Money.vue
+                标签
             </p>
         </Layout>
 
