@@ -1,11 +1,19 @@
 <template>
   <div>
-      <router-view/>
+      <div>
+    <router-view/>
+      </div>
 
   </div>
 </template>
 
 <style lang="scss">
+    //css reset
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
