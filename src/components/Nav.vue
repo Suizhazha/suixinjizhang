@@ -1,27 +1,28 @@
 <template>
-
     <div class="nav">
 
         <router-link to="/Labels">
-            <svg>
-                <use xlink:href="#label"/>
-            </svg>
-            标签</router-link>
+            <Icon name="label"/>
+            标签
+        </router-link>
         |
-        <router-link to="/Money">记账</router-link>
+        <router-link to="/Money">
+            <Icon name="money"/>
+            记账
+        </router-link>
         |
-        <router-link to="/Statistics">统计</router-link>
+        <router-link to="/Statistics">
+            <Icon name="statistics"/>
+            统计
+        </router-link>
     </div>
-
 </template>
 
 <script lang="ts">
-    import x from '@/assets/icons/label.svg';
-
-    console.log(x);
-
+    import Icon from '@/components/Icon.vue';
     export default {
-        name: 'Nav'
+        name: 'Nav',
+        components: {Icon}
     };
 </script>
 
