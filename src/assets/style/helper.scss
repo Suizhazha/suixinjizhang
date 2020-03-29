@@ -3,3 +3,12 @@ $font-hei: -apple-system, "Noto Sans", "Helvetica Neue", Helvetica, "Nimbus Sans
 $font-kai:  Baskerville, Georgia, "Liberation Serif", "Kaiti SC", STKaiti, "AR PL UKai CN", "AR PL UKai HK", "AR PL UKai TW", "AR PL UKai TW MBE", "AR PL KaitiM GB", KaiTi, KaiTi_GB2312, DFKai-SB, "TW\-Kai", serif;
 
 $color-highlight:orangered;
+
+//placeholder：选择器占位
+%clearFix{
+  &::after{
+    content: '';
+    clear: both;
+    display: block;
+  }
+}

@@ -9,8 +9,8 @@
 </script>
 
 <style lang="scss">
-    @import "assets/styles/reset.scss";
-    @import "assets/styles/helper.scss";
+    @import "assets/style/reset.scss";
+    @import "assets/style/helper.scss";
 
     #nav {
         padding: 30px;
@@ -32,6 +32,7 @@
             line-height: 1.5;
             font-size: 16px;
         }
+
     }
 
 </style>

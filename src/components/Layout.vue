@@ -1,7 +1,7 @@
 <template>
     <div>
-        <div class="nav-wrapper">
-            <div class="content">
+        <div class="layout-wrapper">
+            <div class="content" :class="contentClass">
 
             <slot/> <!--引入插槽-->
             </div>
@@ -17,7 +17,7 @@
 </script>
 
 <style lang="scss" scoped>
-    .nav-wrapper{
+    .layout-wrapper{
 
         display: flex;
         flex-direction: column;
