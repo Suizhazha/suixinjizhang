@@ -30,6 +30,7 @@
 //加上scoped,.nav只会影响当前template内nav的样式
 //能加上scoped就加，可以用简单的class名同时不跟其他div 冲突
 <style lang="scss" scoped>
+    @import "./src/assets/style/helper.scss";
     nav {
         display: flex;
         box-shadow: 0 0 3px rgba(0, 0, 0, 0.25);
@@ -47,7 +48,7 @@
             }
         }
         > .item.selected{
-            color: orangered;
+            color: $color-highlight;
         }
     }
 </style>
