@@ -4,13 +4,9 @@
     </div>
 </template>
 
-<script lang="ts">
-
-</script>
-
 <style lang="scss">
-    @import "assets/style/reset.scss";
-    @import "assets/style/helper.scss";
+    @import "./src/assets/style/reset.scss";
+    @import "./src/assets/style/helper.scss";
 
     #nav {
         padding: 30px;
