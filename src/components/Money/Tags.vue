@@ -14,31 +14,8 @@
       <li>行</li><li>衣</li>
       <li>食</li><li>衣</li>
       <li>食</li>
-      <li>住</li>
-      <li>行</li><li>衣</li>
-      <li>食</li>
-      <li>住</li>
-      <li>行</li><li>衣</li>
-      <li>食</li>
-      <li>住</li>
-      <li>行</li><li>衣</li>
-      <li>食</li>
-      <li>住</li>
-      <li>行</li>
-      <li>住</li>
-      <li>行</li><li>衣</li>
-      <li>食</li>
-      <li>住</li>
-      <li>行</li><li>衣</li>
-      <li>食</li>
-      <li>住</li>
-      <li>行</li>
-      <li>衣</li>
-      <li>食</li>
-      <li>住</li>
-      <li>行</li>
-      <li>衣</li>
-      <li>食</li>
+
+
 
     </ul>
   </div>
