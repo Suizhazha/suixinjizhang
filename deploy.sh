@@ -20,8 +20,6 @@ git commit -m 'update'
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 
 # 部署到 https://<USERNAME>.github.io/<REPO>
-git remote add origin git@github.com:Suizhazha/suixinjizhang-app.git
-git branch -M main
-git push -u origin main
+ git push -f git@github.com:suizhazha/suixinjizhang-app-website.git master:gh-pages
 
 cd -
