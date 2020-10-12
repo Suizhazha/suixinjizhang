@@ -16,7 +16,7 @@ new Vue({
 if (document.body.clientWidth>500){
     window.alert(`推荐使用手机查看，可以扫描二维码或者进入开发者模式`)
     const img = document.createElement('img')
-    img.src= '/qrcode.png'
+    img.src= '/QRCode.png'
     img.style.position = 'fixed'
     img.style.left = '50%'
     img.style.top = '50%'
