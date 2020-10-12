@@ -2,7 +2,10 @@
 const path = require('path')
 
 module.exports = {
-    publicPath: '',
+    publicPath: process.env.NODE_ENV === 'production'
+        ? '/suixinjizhang-app-website/'
+        : '/',
+    lintOnSave:false,
     chainWebpack: config => {
         const icons = path.resolve(__dirname, 'src', 'assets', 'icons')
         // 配置loader
